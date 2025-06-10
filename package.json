@@ -1,0 +1,19 @@
+{
+  "name": "codedeploy",
+  "version": "1.0.0",
+  "description": "app for deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "abhi"
+  ],
+  "author": "abhishek maurya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
