@@ -3,6 +3,9 @@ const path=require('path');
 const filepath=path.join(__dirpath,'template');
 const app=express();
 //app.use(exptress.static(filepath));
+// first we set the dynammic page 
+app.set('view engine','ejs');
+
 app.get('',(_,resp)=>{
     resp.sendFile(`${filepath}/hello.html`);
 });

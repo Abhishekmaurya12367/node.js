@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 const fs=require('fs');
 fs.writeFileSync("image.txt");
 // we are installing the nodman package that help in the saving the time which is always required with time and i know it about ;
-=======
 const express = require('express')
 const app = express()
 const port = 3000
@@ -22,4 +21,3 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
->>>>>>> 0766ff9829581f7cdf1444e2da660bb1f0fba32a

@@ -2,3 +2,5 @@
 for the template engine we first install the ejs template package 
 // in the nodes.js most of the time we create api near about 95 percent ;
 // rarely we make dynammic page 
+//app.set('view engine','ejs'); for this used the view folder always; the extention will be the .ejs;
+
