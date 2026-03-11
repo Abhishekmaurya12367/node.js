@@ -1,1 +1,2 @@
 // template engine = basicaaly it used for making the dynnamic pages 
+for the template engine we first install the ejs template package 
