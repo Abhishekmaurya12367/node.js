@@ -1,2 +1,4 @@
 // template engine = basicaaly it used for making the dynnamic pages 
 for the template engine we first install the ejs template package 
+// in the nodes.js most of the time we create api near about 95 percent ;
+// rarely we make dynammic page 
