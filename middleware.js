@@ -22,3 +22,7 @@ app.get('/user',()=>{
     resp.send("welcome the user file ");
 
 });
+app.get('/about',()=>{
+    resp.send("welcome to the about page it will be good if you things much about it");
+})
+app.listen(5000);
