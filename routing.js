@@ -22,9 +22,14 @@ app.get('/hello',(_,resp)=>{
    resp.sendFile(`${filepath}/hello.html`);
 
 })
+app.get('/profile',(_,resp)=>{
+   resp.render('profile');
+
+})
 // it is used in that condition when we search any things in the urls
 app.get('*',(_,resp)=>{
    resp.sendFile(`${filepath}/404_error.html`);
 })
 //this used to run the localhost in the 5000 hundred host;
+
 app.listen(5000);
